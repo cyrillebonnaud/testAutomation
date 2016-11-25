@@ -1,3 +1,4 @@
+import os
 import unittest
 from selenium import webdriver
 
@@ -5,8 +6,8 @@ class SimpleTest(unittest.TestCase):
 
         def setUp(self):
           self.driver = webdriver.Remote(
-                     command_executor='http://127.0.0.1:32781/wd/hub',
-                     desired_capabilities={'browserName': 'firefox', 'javascriptEnabled': True})
+                     command_executor='http://127.0.0.1:32785/wd/hub',
+                     desired_capabilities={'browserName': os.environ['BROWSER'], 'javascriptEnabled': True})
 
         def test_search_in_python_org(self):
             driver = self.driver
