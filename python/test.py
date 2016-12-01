@@ -6,7 +6,7 @@ class SimpleTest(unittest.TestCase):
 
         def setUp(self):
           self.driver = webdriver.Remote(
-                     command_executor='http://127.0.0.1:32785/wd/hub',
+                     command_executor='http://127.0.0.1:32773/wd/hub',
                      desired_capabilities={'browserName': os.environ['BROWSER'], 'javascriptEnabled': True})
 
         def test_search_in_python_org(self):
