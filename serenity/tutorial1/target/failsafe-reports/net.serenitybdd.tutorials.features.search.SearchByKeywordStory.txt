@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: net.serenitybdd.tutorials.features.search.SearchByKeywordStory
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 48.345 sec <<< FAILURE! - in net.serenitybdd.tutorials.features.search.SearchByKeywordStory
+search_results_should_show_the_search_term_in_the_title(net.serenitybdd.tutorials.features.search.SearchByKeywordStory)  Time elapsed: 46.839 sec  <<< ERROR!
+net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver
+	at net.serenitybdd.tutorials.tasks.OpenTheApplication.performAs(OpenTheApplication.java:15)
+	at net.serenitybdd.tutorials.features.search.SearchByKeywordStory.search_results_should_show_the_search_term_in_the_title(SearchByKeywordStory.java:41)
+

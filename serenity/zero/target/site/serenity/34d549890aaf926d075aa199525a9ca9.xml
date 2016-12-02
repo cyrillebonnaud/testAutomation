@@ -1,0 +1,9 @@
+<acceptance-test-run title="Searching by ambiguious keyword should display the disambiguation page" name="searching_by_ambiguious_keyword_should_display_the_disambiguation_page" steps="0" successful="0" failures="0" skipped="0" ignored="0" pending="0" annotated-result="PENDING" result="PENDING" duration="357" timestamp="2016-12-02T14:47:27.724+01:00" test-source="JUnit">
+  <user-story id="cbo.tutorials.features.search.SearchByKeywordStory" name="Search by keyword story" path="cbo.tutorials.features.search"/>
+  <tags>
+    <tag name="Search" type="capability"/>
+    <tag name="Search" type="feature"/>
+    <tag name="Search by keyword story" type="story"/>
+    <tag name="Search/Search by keyword story" type="story"/>
+  </tags>
+</acceptance-test-run>

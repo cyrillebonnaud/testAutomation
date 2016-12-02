@@ -1,0 +1,4 @@
+cbo/tutorials/pages/DictionaryPage.class
+cbo/tutorials/pages/DictionaryPage$1.class
+cbo/tutorials/steps/serenity/EndUserSteps.class
+cbo/tutorials/features/search/SearchByKeywordStory.class

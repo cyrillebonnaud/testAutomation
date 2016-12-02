@@ -1,0 +1,22 @@
+<acceptance-test-run title="Search results should show the search term in the title" name="search_results_should_show_the_search_term_in_the_title" steps="3" successful="0" failures="0" errors="1" skipped="2" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="46534" timestamp="2016-12-02T14:32:44.247+01:00">
+  <user-story id="net.serenitybdd.tutorials.features.search.SearchByKeywordStory" name="Search by keyword story" path="net.serenitybdd.tutorials.features.search"/>
+  <tags>
+    <tag name="Search" type="capability"/>
+    <tag name="Search" type="feature"/>
+    <tag name="Search/Search by keyword story" type="story"/>
+  </tags>
+  <test-group name="Open the application" result="ERROR">
+    <test-step result="ERROR" duration="46174">
+      <description>Anna opens the Google search page</description>
+      <error>net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver</error>
+      <exception>net.thucydides.core.webdriver.UnsupportedDriverException:Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver
+[net.serenitybdd.tutorials.tasks.OpenTheApplication.performAs(OpenTheApplication.java:15), net.serenitybdd.tutorials.features.search.SearchByKeywordStory.search_results_should_show_the_search_term_in_the_title(SearchByKeywordStory.java:41)]</exception>
+    </test-step>
+  </test-group>
+  <test-step result="SKIPPED" duration="1">
+    <description>Search for BDD In Action</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>Then page title question should be a string containing &apos;BDD In Action&apos;</description>
+  </test-step>
+</acceptance-test-run>
